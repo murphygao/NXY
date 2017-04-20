@@ -1,0 +1,28 @@
+
+
+#fh5co-header{
+  margin-top: 59.2px;
+  margin-bottom: 20px;
+}
+.zyzxx{
+    text-align: center;
+    font-size: 20px;
+}
+.zyzxx a{
+  color:#777
+}
+#logoName a{
+  color: #777;
+}
+.animate-box > figure > a > img {
+
+                cursor: pointer;  
+                transition: all 0.5s;  
+        }  
+ .animate-box > figure > a > img:hover{  
+                transform: scale(1.1);                  
+              }  
+               
+
+
+

@@ -1,0 +1,144 @@
+html
+{
+	height: 100%;
+}
+body
+{
+	display: flex;
+	flex-direction: column;
+	height: 100%
+}
+header
+{
+	flex: 0 0 auto;
+}
+.brand-img img
+{
+	width: 25px;
+	height: 25px;
+	float: left;
+}
+.brand-text
+{
+	float: left;
+	margin-left: 15px;
+  color: #4f4e4d;
+}
+footer {
+	width: 100%;
+  background: #26282c;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 15px 0;
+  flex: 0 0 auto;
+}
+footer a {
+  color: #FF8C00;
+}
+.content
+{
+	background: #fff;
+  flex: 1 0 auto;
+}
+
+.content .content-center
+{
+	width: 80%;
+	margin:0 auto;
+	color:#4f4e4d;
+}
+.content .content-center h2
+{
+	text-align: center;
+}
+.content .content-center .active-content
+{
+	width: 90%;
+	margin:0 auto;
+}
+
+.btn-center
+{
+	text-align: center;
+}
+.btn-nxy {
+  text-shadow: 0 1px 0 #f9d1a2;
+  background-image: -webkit-linear-gradient(top, #f9d1a2 0%, #e4a272 100%);
+  background-image:      -o-linear-gradient(top, #f9d1a2 0%, #e4a272 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f9d1a2), to(#e4a272));
+  background-image:         linear-gradient(to bottom, #f9d1a2 0%, #e4a272 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9d1a2', endColorstr='#e79152', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-color: #e79152;
+  border-color: #e79152;
+}
+.btn-nxy:hover,
+.btn-nxy:focus {
+  background-color: #e4a272;
+  background-position: 0 -15px;
+}
+.btn-nxy:active,
+.btn-nxy.active {
+  background-color: #e4a272;
+  border-color: #e79152;
+}
+.btn-nxy.disabled,
+.btn-nxy[disabled],
+fieldset[disabled] .btn-nxy,
+.btn-nxy.disabled:hover,
+.btn-nxy[disabled]:hover,
+fieldset[disabled] .btn-nxy:hover,
+.btn-nxy.disabled:focus,
+.btn-nxy[disabled]:focus,
+fieldset[disabled] .btn-nxy:focus,
+.btn-nxy.disabled.focus,
+.btn-nxy[disabled].focus,
+fieldset[disabled] .btn-nxy.focus,
+.btn-nxy.disabled:active,
+.btn-nxy[disabled]:active,
+fieldset[disabled] .btn-nxy:active,
+.btn-nxy.disabled.active,
+.btn-nxy[disabled].active,
+fieldset[disabled] .btn-nxy.active {
+  background-color: #e4a272;
+  background-image: none;
+}
+
+
+big
+{
+  font-size: 30px;
+}
+p
+{
+  text-indent: 2em;
+}
+.navbar-button 
+{
+  margin-top: 7px;
+  margin-right: 40px;
+}
+.index_bg
+{
+    background-image: url('../img/big2.jpg');
+    height: 665px;
+    width: 100%; 
+    background-size: cover;
+}
+.index_bg > .index_text
+{
+    color: #fff;
+    margin-top: 6%;
+    margin-left:6%;
+}
+.index_bg > .index_text > .intro
+{
+  margin-top: 30px;
+  text-indent: 0em;
+}
+.panel > .panel-heading > a,
+.panel > .panel-body > a,
+.list-group-item > a
+{
+  color: #777;
+}
