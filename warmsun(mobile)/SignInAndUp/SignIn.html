@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <link href="../css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/bootstrap-theme.css">
+  <link rel="shortcut icon" href="nxyfavicon.ico">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div data-role="page" id="page_SignIn">
+    <div data-role="panel" id="myPanel" data-display="overlay">
+      <div class="mine">
+        <img src="../img/lrimg/1.jpg" class="HeadImg img-circle">
+        <div id="UserName">STPace</div>
+        <hr>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a href="#">个人信息</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">我的志愿者</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">参加的活动</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">消费的家政服务</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">切换日夜间模式</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">关于我们</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">退出账号</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+    <div data-role="header" data-position="fixed" class="header">
+      <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-icon-bars ui-btn-icon-notext headerA"></a>
+      <h1>暖夕阳智慧养老</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+      <h1>暖夕阳</h1>
+      <h4>登录账号</h4>
+        <form action="#" method="post" target="_blank">
+          <div id="username" class="input_nxy"><input name="username" type="text" placeholder="账号" ></div>
+          <div id="password" class="input_nxy"><input name="password" type="password" placeholder="密码"></div>
+          <button id="login_button" name="login_button" type="submit" value="登录">立即登录</button>
+          <div id="gosignin_button" ><a href="#page_SignUp_OldMan">去注册</a></div>
+        </form>
+    </div>
+    <div data-role="footer" data-position="fixed" class="footer">
+      <div class="footer_btn">
+        <a href="#myPanel" data-rel="back" class="ui-btn ui-inline ui-icon-back ui-btn-icon-left">back</a><a href="#page_home" data-transition="slideup" class="ui-btn ui-inline ui-icon-home ui-btn-icon-left">home</a><a href="#myPanel" class="ui-btn ui-inline ui-icon-grid ui-btn-icon-left">menu</a>
+      </div>
+    </div>
+  </div>
+  <div data-role="page" id="page_SignUp_OldMan">
+    <div data-role="panel" id="myPanel" data-display="overlay">
+      <div class="mine">
+        <img src="../img/lrimg/1.jpg" class="HeadImg img-circle">
+        <div id="UserName">STPace</div>
+        <hr>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a href="#">个人信息</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">我的志愿者</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">参加的活动</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">消费的家政服务</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">切换日夜间模式</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">关于我们</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">退出账号</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+    <div data-role="header" data-position="fixed" class="header">
+      <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-icon-bars ui-btn-icon-notext headerA"></a>
+      <h1>暖夕阳智慧养老</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+      <h1>暖夕阳</h1>
+      <h4>老人注册账号</h4>
+        <div id="username" class="input_nxy"><input name="username" type="text" placeholder="账号"></div>
+        <div id="password" class="input_nxy"><input name="password" type="password" placeholder="密码"></div>
+        <div id="password2" class="input_nxy"><input name="password" type="password" placeholder="确认密码"></div>
+        <div id="truename" class="input_nxy"><input name="truename" type="text" placeholder="姓名"></div>
+        <div class="sex_select">
+          <div><input type="radio" name="sex" value="male">男</div>
+          <div><input type="radio" name="sex" value="female">女</div>
+        </div>
+        <div id="habit" class="input_nxy"><input name="habit" type="text" placeholder="爱好"></div>
+        <div id="tel" class="input_nxy"><input name="tel" type="text" placeholder="联系方式"></div>
+        <textarea class="SignUp_textarea" rows="4" cols="45" placeholder="其他情况描述，如特殊需要，习惯等。。。"></textarea>
+        <button id="signup_button" name="signup_button" type="button" value="注册"><a href="#" target="_blank">注册</a></button>
+        <div id="gosignup_button" ><a href="#page_SignIn">去登录</a></div>
+    </div>
+    <div data-role="footer" data-position="fixed" class="footer">
+      <div class="footer_btn">
+        <a href="#myPanel" data-rel="back" class="ui-btn ui-inline ui-icon-back ui-btn-icon-left">back</a><a href="#page_home" data-transition="slideup" class="ui-btn ui-inline ui-icon-home ui-btn-icon-left">home</a><a href="#myPanel" class="ui-btn ui-inline ui-icon-grid ui-btn-icon-left">menu</a>
+      </div>
+    </div>
+  </div>
+  <div data-role="page" id="page_SignUp_Volunteer">
+    <div data-role="panel" id="myPanel" data-display="overlay">
+      <div class="mine">
+        <img src="../img/lrimg/1.jpg" class="HeadImg img-circle">
+        <div id="UserName">STPace</div>
+        <hr>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a href="#">个人信息</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">我的志愿者</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">参加的活动</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">消费的家政服务</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">切换日夜间模式</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">关于我们</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">退出账号</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+    <div data-role="header" data-position="fixed" class="header">
+      <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-icon-bars ui-btn-icon-notext headerA"></a>
+      <h1>暖夕阳智慧养老</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+      <h1>暖夕阳</h1>
+      <h4>志愿者注册账号</h4>
+        <div id="username" class="input_nxy"><input name="username" type="text" placeholder="账号  (字母、数字、下划线组成，字母开头，4-16位。)"></div>
+        <div id="password" class="input_nxy"><input name="password" type="password" placeholder="密码"></div>
+        <div id="password2" class="input_nxy"><input name="password" type="password" placeholder="确认密码"></div>
+        <div id="truename" class="input_nxy"><input name="truename" type="text" placeholder="姓名"></div>
+        <div class="sex_select">
+          <input type="radio" name="sex" value="male"> 男
+          <input type="radio" name="sex" value="female"> 女
+        </div>
+        <div id="habit" class="input_nxy"><input name="habit" type="text" placeholder="技能特长"></div>
+        <div id="tel" class="input_nxy"><input name="tel" type="text" placeholder="联系方式"></div>
+        <div id="email" class="input_nxy"><input name="email" type="email" placeholder="电子邮箱"></div>
+        <textarea class="SignUp_textarea" rows="4" cols="45" placeholder="个人详细情况描述。。。"></textarea>
+        <button id="signup_button" name="signup_button" type="button" value="注册"><a href="#" target="_blank">注册</a></button>
+        <div id="gosignup_button" ><a href="SignIn.html" target="_blank">去登录</a></div>
+    </div>
+    <div data-role="footer" data-position="fixed" class="footer">
+      <div class="footer_btn">
+        <a href="#myPanel" data-rel="back" class="ui-btn ui-inline ui-icon-back ui-btn-icon-left">back</a><a href="#page_home" data-transition="slideup" class="ui-btn ui-inline ui-icon-home ui-btn-icon-left">home</a><a href="#myPanel" class="ui-btn ui-inline ui-icon-grid ui-btn-icon-left">menu</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

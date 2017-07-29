@@ -1,0 +1,72 @@
+.ks_time , .jz_time
+{
+	width: 40%;
+	float: left;
+	margin-right: 5%;
+}
+.content  h2
+{
+	text-align: center;
+	color: #fff;
+}
+.issue_button
+{
+    width: 100%;height: 50px;
+    background-color: coral;
+    margin-top: 30px;
+    border-style: solid;
+    border-color: coral;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding-top: 8px;
+}
+.issue_button:hover
+{
+	color: #fff;
+	background-color: #ff5f50;
+}
+.HeadImg 
+{
+	margin:0 auto;
+	width: 100px;height: 100px;
+}
+.div_center
+{
+	margin:0 auto;
+}
+.txt_center
+{
+	text-align: center;
+}
+.btn_right
+{
+	position: absolute;
+	right: 10px;
+}
+p
+{
+  text-indent: 0em;
+}
+.wid_40
+{
+	float: left;
+	width: 40%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.wid_2
+{
+	width: 25%;
+	float: left;
+	margin-right: 5%;
+}
+.wid_60
+{
+	width: 60%;
+	float: left;
+}
+a
+{
+	color: #fff;
+}

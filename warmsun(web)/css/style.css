@@ -1,0 +1,262 @@
+html
+{
+	height: 100%;
+}
+body
+{
+	display: flex;
+	flex-direction: column;
+	height: 100%
+}
+header
+{
+	flex: 0 0 auto;
+}
+.brand-img img
+{
+	width: 25px;
+	height: 25px;
+	float: left;
+}
+.brand-text
+{
+	float: left;
+	margin-left: 15px;
+  color: #4f4e4d;
+}
+footer {
+	width: 100%;
+  background: #26282c;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 15px 0;
+  flex: 0 0 auto;
+}
+footer a {
+  color: #FF8C00;
+}
+.content
+{
+	background: #fff;
+  flex: 1 0 auto;
+}
+
+.content .content-center
+{
+	width: 80%;
+	margin:0 auto;
+	color:#4f4e4d;
+}
+.content .content-center h2
+{
+	text-align: center;
+}
+.content .content-center .active-content
+{
+	width: 90%;
+	margin:0 auto;
+}
+
+.btn-center
+{
+	text-align: center;
+}
+.btn-nxy {
+  text-shadow: 0 1px 0 #f9d1a2;
+  background-image: -webkit-linear-gradient(top, #f9d1a2 0%, #e4a272 100%);
+  background-image:      -o-linear-gradient(top, #f9d1a2 0%, #e4a272 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f9d1a2), to(#e4a272));
+  background-image:         linear-gradient(to bottom, #f9d1a2 0%, #e4a272 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9d1a2', endColorstr='#e79152', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-color: #e79152;
+  border-color: #e79152;
+}
+.btn-nxy:hover,
+.btn-nxy:focus {
+  background-color: #e4a272;
+  background-position: 0 -15px;
+}
+.btn-nxy:active,
+.btn-nxy.active {
+  background-color: #e4a272;
+  border-color: #e79152;
+}
+.btn-nxy.disabled,
+.btn-nxy[disabled],
+fieldset[disabled] .btn-nxy,
+.btn-nxy.disabled:hover,
+.btn-nxy[disabled]:hover,
+fieldset[disabled] .btn-nxy:hover,
+.btn-nxy.disabled:focus,
+.btn-nxy[disabled]:focus,
+fieldset[disabled] .btn-nxy:focus,
+.btn-nxy.disabled.focus,
+.btn-nxy[disabled].focus,
+fieldset[disabled] .btn-nxy.focus,
+.btn-nxy.disabled:active,
+.btn-nxy[disabled]:active,
+fieldset[disabled] .btn-nxy:active,
+.btn-nxy.disabled.active,
+.btn-nxy[disabled].active,
+fieldset[disabled] .btn-nxy.active {
+  background-color: #e4a272;
+  background-image: none;
+}
+.HeadImg
+{
+  width: 100px;
+  height: 100px;
+}
+.title-center
+{
+  text-align: center;
+  color: white;
+}
+big
+{
+  font-size: 30px;
+}
+p
+{
+  text-indent: 2em;
+}
+.navbar-button 
+{
+  margin-top: 7px;
+  margin-right: 40px;
+}
+
+.index > .index_text
+{
+    color: #fff;
+    margin-top: 6%;
+    margin-left:6%;
+}
+.index > .index_text > .intro
+{
+  margin-top: 30px;
+  text-indent: 0em;
+}
+.panel > .panel-heading > a,
+.panel > .panel-body > a,
+.list-group-item > a
+{
+  color: #777;
+}
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓以下是注册样式↓↓↓↓↓↓↓↓↓↓↓↓↓↓*/
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓以下是注册样式↓↓↓↓↓↓↓↓↓↓↓↓↓↓*/
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓以下是注册样式↓↓↓↓↓↓↓↓↓↓↓↓↓↓*/
+/* Sign In style */
+.SignIn_bg
+{
+  background-image: url('../img/big2.jpg');
+  height: auto;
+  width: 100%;
+  background-size: cover;
+}
+form
+{
+    width: 100%;height: auto;
+    margin: 0 auto;
+}
+.input_nxy > input
+{
+    width: 100%;height: 50px;
+    font-size: 15px;
+    border-color: gainsboro;
+    border-style:  solid;
+    margin-top: 15px;
+}
+
+#login_button
+{
+    width: 100%;height: 50px;
+    background-color: coral;
+    margin-top: 50px;
+    border-style: solid;
+    border-color: coral;
+    font-size: 20px;
+    color: white;
+}
+#gosignup_button
+{
+    margin-top:15px;
+    margin-left:80%;
+    background-color: white;
+    border-style: none;
+}
+#gosignup_button a
+{
+    text-decoration: none;
+    color: silver;
+    font-size: 15px;
+}
+/* Sign Out style */
+
+#signup_button
+{
+    width: 100%;height: 50px;
+    background-color: coral;
+    margin-top: 50px;
+    border-style: solid;
+    border-color: coral;
+    font-size: 20px;    
+}
+#signup_button a
+{
+    text-decoration: none;
+    color: white;
+}
+#gosignin_button
+{
+    margin-top:15px;
+    margin-left:80%;
+    background-color: white;
+    border-style: none;
+}
+#gosignin_button a
+{
+    text-decoration: none;
+    color: silver;
+    font-size: 15px;
+}
+
+.ButtonGroup_center
+{
+  margin-top:15px;
+  text-align: center;
+}
+.btn-group > a
+{
+  color: #000;
+}
+.SignUp_textarea
+{
+  width: 100%;
+  margin-top:15px;
+}
+.sex_select
+{
+  margin-top:15px;
+  font-size: 18px;
+  color: silver;
+}
+/* ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ */
+/* ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ */
+/* ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ */
+.btn_sum
+{
+	width: 46%;
+	float: left;
+	border: solid #E79152;
+	background-color: coral;
+	padding: 3%;margin: 1%;
+	color: white;
+}
+.btn_sum:hover
+{
+	color: #fff;
+	background-color: #ff5f50;
+}
+

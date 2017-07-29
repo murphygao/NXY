@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap-theme.css">
+  <link rel="stylesheet" href="css/lltcss.css">
+  <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+  <link rel="shortcut icon" href="nxyfavicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+ <!-- page home -->
+  <div data-role="page" id="page_home">
+    <div data-role="panel" id="myPanel" data-display="overlay">
+      <div class="mine">
+        <img src="images/lrimg/1.jpg" class="HeadImg img-circle">
+        <div id="UserName">STPace</div>
+        <hr>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a href="#">个人信息</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">我的志愿者</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">参加的活动</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">消费的家政服务</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">切换日夜间模式</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">关于我们</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">退出账号</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+
+
+
+
+    <div data-role="header" data-position="fixed" class="header">
+      <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-icon-bars ui-btn-icon-notext headerA"></a>
+      <h1>暖夕阳智慧养老</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+      <h1>暖夕阳</h1>
+      <h4>一个你所向往的智慧养老平台</h4>
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#page_zc" data-transition="slidefade">政 策</a></li>
+          <li><a href="#page_zyz" data-transition="slidefade">志愿者</a></li>
+          <li><a href="#page_lr" data-transition="slidefade">老 人</a></li>
+          <li><a href="#page_hd" data-transition="slidefade">活 动</a></li>
+          <li><a href="#page_jz" data-transition="slidefade">家 政</a></li>
+        </ul>
+      </div>
+      <div class="box box-zc">
+        <div data-role="collapsible" data-collapsed="false" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
+          <h1>政 策</h1>
+          <ul class="list-group">
+            <li class="list-group-item">
+                <a href="zczs-xx.html" target="_blank">《老年人健康护理手册》首发</a>
+            </li>
+            <li class="list-group-item">
+                <a href="zczs-xx2.html" target="_blank">养老服务市场将全面放开 托起幸福＂夕阳红</a>
+            </li>
+            <li class="list-group-item">
+                <a href="zczs-xx3.html" target="_blank">智能化服务将是居家养老的未来发展方向</a>
+            </li>
+            <li class="list-group-item">
+                <a href="zczs-xx.html" target="_blank">关注定了！养老金要涨了！9月底前发到位！</a>
+            </li>
+            <li class="list-group-item">
+                <a href="zczs-xx.html" target="_blank">2017:企业参加养老保险职工缴费满15年且正常到龄退休 经办机构直接</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="box box-hd">
+        <div data-role="collapsible" data-collapsed="false" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
+          <h1>活 动</h1>
+          <ul class="list-group">
+            <li class="list-group-item">
+                <a href="zczs-xx.html" target="_blank">《老年人健康护理手册》首发</a>
+            </li>
+            <li class="list-group-item">
+                <a href="zczs-xx2.html" target="_blank">养老服务市场将全面放开 托起幸福＂夕阳红</a>
+            </li>
+            <li class="list-group-item">
+                <a href="zczs-xx3.html" target="_blank">智能化服务将是居家养老的未来发展方向</a>
+            </li>
+            <li class="list-group-item">
+                <a href="zczs-xx.html" target="_blank">关注定了！养老金要涨了！9月底前发到位！</a>
+            </li>
+            <li class="list-group-item">
+                <a href="zczs-xx.html" target="_blank">2017:企业参加养老保险职工缴费满15年且正常到龄退休 经办机构直接</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="box box-jz">
+        <div data-role="collapsible" data-collapsed="false" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
+          <h1>家 政</h1>
+          <ul class="list-group">
+            <li class="list-group-item">
+                <a href="zczs-xx.html" target="_blank">《老年人健康护理手册》首发</a>
+            </li>
+            <li class="list-group-item">
+                <a href="zczs-xx2.html" target="_blank">养老服务市场将全面放开 托起幸福＂夕阳红</a>
+            </li>
+            <li class="list-group-item">
+                <a href="zczs-xx3.html" target="_blank">智能化服务将是居家养老的未来发展方向</a>
+            </li>
+            <li class="list-group-item">
+                <a href="zczs-xx.html" target="_blank">关注定了！养老金要涨了！9月底前发到位！</a>
+            </li>
+            <li class="list-group-item">
+                <a href="zczs-xx.html" target="_blank">2017:企业参加养老保险职工缴费满15年且正常到龄退休 经办机构直接</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div data-role="footer" data-position="fixed">
+      <div data-role="navbar">
+      <ul>
+        <li><a href="#myPanel" data-rel="back" class="ui-btn ui-inline ui-icon-back ui-btn-icon-left">返回</a></li>
+        <li><a href="#page_home" data-transition="slideup" class="ui-btn ui-inline ui-icon-home ui-btn-icon-left ">主页</a></li>
+        <li><a href="#myPanel" class="ui-btn ui-inline ui-icon-grid ui-btn-icon-left">菜单</a></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+
+<!-- page home end -->
+
+<!-- page zyz -->
+<div data-role="page" id="page_zyz">
+    <div data-role="panel" id="myPanel" data-display="overlay">
+      <div class="mine">
+        <img src="images/lrimg/1.jpg" class="HeadImg img-circle">
+        <div id="UserName">STPace</div>
+        <hr>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a href="#">个人信息</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">我的志愿者</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">参加的活动</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">消费的家政服务</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">切换日夜间模式</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">关于我们</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">退出账号</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+
+
+
+
+    <div data-role="header" data-position="fixed" class="header">
+      <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-icon-bars ui-btn-icon-notext headerA"></a>
+      <h1>暖夕阳智慧养老</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+        <h1>志愿者信息展示</h1>
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#page_zc" data-transition="slidefade">政 策</a></li>
+          <li><a href="#page_zyz" class="ui-btn-active" data-transition="slidefade">志愿者</a></li>
+          <li><a href="#page_lr" data-transition="slidefade">老 人</a></li>
+          <li><a href="#page_hd" data-transition="slidefade">活 动</a></li>
+          <li><a href="#page_jz" data-transition="slidefade">家 政</a></li>
+        </ul>
+      </div>
+
+    <div data-role="content">
+        <div class="ui-grid-a lrBlock" >
+            <div class="ui-block-a">
+             <a href="#pagetwo"><img src="images/zyzimg/1.jpg" class="zyzimg">   </a>      
+            </div>
+            <div class="ui-block-b lrBlock_info">
+              <a href="#pagetwo"><div class="lrxxxx"><table data-role="table" >  
+                <thead><tr><th>姓名</th><th>性别</th><th>年龄</th><th>志愿服务方向</th></tr></thead><tbody><tr><td>某某某</td><td>男</td><td>70岁</td><td>卫生清洁</td></tr></tbody></table></div>
+            </a>
+          </div>
+        </div>
+        <div class="ui-grid-a lrBlock" >
+            <div class="ui-block-a">
+             <a href="#pagetwo"><img src="images/zyzimg/2.jpg" class="zyzimg">   </a>      
+            </div>
+            <div class="ui-block-b lrBlock_info">
+            <a href="#pagetwo"><div class="lrxxxx"><table data-role="table" >  
+                <thead><tr><th>姓名</th><th>性别</th><th>年龄</th><th>志愿服务方向</th></tr></thead><tbody><tr><td>某某某</td><td>男</td><td>70岁</td><td>卫生清洁</td></tr></tbody></table></div>
+            </a>
+            </div>
+          </div>
+
+          <div class="ui-grid-a lrBlock" >
+            <div class="ui-block-a">
+             <a href="#pagetwo"><img src="images/zyzimg/12.jpg" class="zyzimg">  </a>      
+            </div>
+            <div class="ui-block-b lrBlock_info">
+            <a href="#pagetwo"><div class="lrxxxx"><table data-role="table" >  
+                <thead><tr><th>姓名</th><th>性别</th><th>年龄</th><th>志愿服务方向</th></tr></thead><tbody><tr><td>某某某</td><td>男</td><td>70岁</td><td>卫生清洁</td></tr></tbody></table></div>
+            </a>
+            </div>
+          </div>
+
+          <div class="ui-grid-a lrBlock" >
+            <div class="ui-block-a">
+             <a href="#pagetwo"><img src="images/zyzimg/105.jpg" class="zyzimg">   </a>      
+            </div>
+            <div class="ui-block-b lrBlock_info">
+            <a href="#pagetwo"><div class="lrxxxx"><table data-role="table" >  
+                <thead><tr><th>姓名</th><th>性别</th><th>年龄</th><th>志愿服务方向</th></tr></thead><tbody><tr><td>某某某</td><td>男</td><td>70岁</td><td>卫生清洁</td></tr></tbody></table></div>
+            </a>
+            </div>
+          </div>
+
+          <div class="ui-grid-a lrBlock" >
+            <div class="ui-block-a">
+             <a href="#pagetwo"><img src="images/zyzimg/1.jpg" class="zyzimg">   </a>      
+            </div>
+            <div class="ui-block-b lrBlock_info">
+            <a href="#pagetwo"><div class="lrxxxx"><table data-role="table" >  
+                <thead><tr><th>姓名</th><th>性别</th><th>年龄</th><th>志愿服务方向</th></tr></thead><tbody><tr><td>某某某</td><td>男</td><td>70岁</td><td>卫生清洁</td></tr></tbody></table></div>
+            </a>
+            </div>
+          </div>
+
+          <div class="ui-grid-a lrBlock" >
+            <div class="ui-block-a">
+             <a href="#pagetwo"><img src="images/zyzimg/1.jpg" class="zyzimg">   </a>      
+            </div>
+            <div class="ui-block-b lrBlock_info">
+            <a href="#pagetwo"><div class="lrxxxx"><table data-role="table" >  
+                <thead><tr><th>姓名</th><th>性别</th><th>年龄</th><th>志愿服务方向</th></tr></thead><tbody><tr><td>某某某</td><td>男</td><td>70岁</td><td>卫生清洁</td></tr></tbody></table></div>
+            </a>
+            </div>
+          </div>
+
+          <div class="ui-grid-a lrBlock" >
+            <div class="ui-block-a">
+             <a href="#pagetwo"><img src="images/zyzimg/2.jpg" class="zyzimg">   </a>      
+            </div>
+            <div class="ui-block-b lrBlock_info">
+            <a href="#pagetwo"><div class="lrxxxx"><table data-role="table" >  
+                <thead><tr><th>姓名</th><th>性别</th><th>年龄</th><th>志愿服务方向</th></tr></thead><tbody><tr><td>某某某</td><td>男</td><td>70岁</td><td>卫生清洁</td></tr></tbody></table></div>
+            </a>
+            </div>
+          </div>     
+      </div> <!-- data-role="content" -->
+ <div data-role="footer" data-position="fixed">
+      <div data-role="navbar">
+      <ul>
+        <li><a href="#myPanel" data-rel="back" class="ui-btn ui-inline ui-icon-back ui-btn-icon-left">返回</a></li>
+        <li><a href="#page_home" data-transition="slideup" class="ui-btn ui-inline ui-icon-home ui-btn-icon-left ">主页</a></li>
+        <li><a href="#myPanel" class="ui-btn ui-inline ui-icon-grid ui-btn-icon-left">菜单</a></li>
+      </ul>
+      </div>
+    </div>
+</div>
+</div>
+<!-- page zyz end -->
+
+<!-- page lrxx -->
+<div data-role="page" id="page_lr">
+    <div data-role="panel" id="myPanel" data-display="overlay">
+      <div class="mine">
+        <img src="images/lrimg/1.jpg" class="HeadImg img-circle">
+        <div id="UserName">STPace</div>
+        <hr>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a href="#">个人信息</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">我的志愿者</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">参加的活动</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">消费的家政服务</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">切换日夜间模式</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">关于我们</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">退出账号</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+
+
+
+
+    <div data-role="header" data-position="fixed" class="header">
+      <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-icon-bars ui-btn-icon-notext headerA"></a>
+      <h1>暖夕阳智慧养老</h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+      <h1>老人信息展示</h1>
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#page_zc" data-transition="slidefade">政 策</a></li>
+          <li><a href="#page_zyz" data-transition="slidefade">志愿者</a></li>
+          <li><a href="#page_lr" class="ui-btn-active" data-transition="slidefade">老 人</a></li>
+          <li><a href="#page_hd" data-transition="slidefade">活 动</a></li>
+          <li><a href="#page_jz" data-transition="slidefade">家 政</a></li>
+        </ul>
+      </div>
+
+     <div data-role="content">
+        <div class="ui-grid-a lrBlock" >
+            <div class="ui-block-a">
+             <a href="#pagetwo"><img src="images/lrimg/1.jpg" class="lrimg">   </a>      
+            </div>
+            <div class="ui-block-b lrBlock_info">
+              <a href="#pagetwo"><div class="lrxxxx"><table data-role="table" >  
+                <thead><tr><th>姓名</th><th>性别</th><th>年龄</th><th>爱好</th></tr></thead><tbody><tr><td>某某某</td><td>男</td><td>70岁</td><td>下棋</td></tr></tbody></table></div>
+            </a>
+          </div>
+        </div>
+        <div class="ui-grid-a lrBlock" >
+            <div class="ui-block-a">
+             <a href="#pagetwo"><img src="images/lrimg/2.jpg" class="lrimg">   </a>      
+            </div>
+            <div class="ui-block-b lrBlock_info">
+            <a href="#pagetwo"><div class="lrxxxx"><table data-role="table" >  
+                <thead><tr><th>姓名</th><th>性别</th><th>年龄</th><th>爱好</th></tr></thead><tbody><tr><td>某某某</td><td>男</td><td>70岁</td><td>下棋</td></tr></tbody></table></div>
+            </a>
+            </div>
+          </div>
+
+          <div class="ui-grid-a lrBlock" >
+            <div class="ui-block-a">
+             <a href="#pagetwo"><img src="images/lrimg/3.jpg" class="lrimg">   </a>      
+            </div>
+            <div class="ui-block-b lrBlock_info">
+            <a href="#pagetwo"><div class="lrxxxx"><table data-role="table" >  
+                <thead><tr><th>姓名</th><th>性别</th><th>年龄</th><th>爱好</th></tr></thead><tbody><tr><td>某某某</td><td>男</td><td>70岁</td><td>下棋</td></tr></tbody></table></div>
+            </a>
+            </div>
+          </div>
+
+          <div class="ui-grid-a lrBlock" >
+            <div class="ui-block-a">
+             <a href="#pagetwo"><img src="images/lrimg/4.jpg" class="lrimg">   </a>      
+            </div>
+            <div class="ui-block-b lrBlock_info">
+            <a href="#pagetwo"><div class="lrxxxx"><table data-role="table" >  
+                <thead><tr><th>姓名</th><th>性别</th><th>年龄</th><th>爱好</th></tr></thead><tbody><tr><td>某某某</td><td>男</td><td>70岁</td><td>下棋</td></tr></tbody></table></div>
+            </a>
+            </div>
+          </div>
+
+          <div class="ui-grid-a lrBlock" >
+            <div class="ui-block-a">
+             <a href="#pagetwo"><img src="images/lrimg/4.jpg" class="lrimg">   </a>      
+            </div>
+            <div class="ui-block-b lrBlock_info">
+            <a href="#pagetwo"><div class="lrxxxx"><table data-role="table" >  
+                <thead><tr><th>姓名</th><th>性别</th><th>年龄</th><th>爱好</th></tr></thead><tbody><tr><td>某某某</td><td>男</td><td>70岁</td><td>下棋</td></tr></tbody></table></div>
+            </a>
+            </div>
+          </div>
+
+          <div class="ui-grid-a lrBlock" >
+            <div class="ui-block-a">
+             <a href="#pagetwo"><img src="images/lrimg/3.jpg" class="lrimg">   </a>      
+            </div>
+            <div class="ui-block-b lrBlock_info">
+            <a href="#pagetwo"><div class="lrxxxx"><table data-role="table" >  
+                <thead><tr><th>姓名</th><th>性别</th><th>年龄</th><th>爱好</th></tr></thead><tbody><tr><td>某某某</td><td>男</td><td>70岁</td><td>下棋</td></tr></tbody></table></div>
+            </a>
+            </div>
+          </div>
+
+          <div class="ui-grid-a lrBlock" >
+            <div class="ui-block-a">
+             <a href="#pagetwo"><img src="images/lrimg/2.jpg" class="lrimg">   </a>      
+            </div>
+            <div class="ui-block-b lrBlock_info">
+            <a href="#pagetwo"><div class="lrxxxx"><table data-role="table" >  
+                <thead><tr><th>姓名</th><th>性别</th><th>年龄</th><th>爱好</th></tr></thead><tbody><tr><td>某某某</td><td>男</td><td>70岁</td><td>下棋</td></tr></tbody></table></div>
+            </a>
+            </div>
+          </div>     
+       </div> <!-- data-role="content" -->
+    </div>  <!-- main -->
+
+    
+      <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+        <ul>
+          <li><a href="#myPanel" data-rel="back" class="ui-btn ui-inline ui-icon-back ui-btn-icon-left">返回</a></li>
+          <li><a href="#page_home" data-transition="slideup" class="ui-btn ui-inline ui-icon-home ui-btn-icon-left ">主页</a></li>
+          <li><a href="#myPanel" class="ui-btn ui-inline ui-icon-grid ui-btn-icon-left">菜单</a></li>
+        </ul>
+        </div>
+      </div>
+
+  </div>
+<!-- page lr end -->
+
+
+
+<!-- page zc -->
+  <div data-role="page" id="page_zc">
+    <div data-role="panel" id="myPanel" data-display="overlay">
+      <div class="mine">
+        <img src="images/lrimg/1.jpg" class="HeadImg img-circle">
+        <div id="UserName">STPace</div>
+        <hr>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a href="#">个人信息</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">我的志愿者</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">参加的活动</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">消费的家政服务</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">切换日夜间模式</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">关于我们</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">退出账号</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+    <div data-role="header" data-position="fixed" class="header">
+      <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-icon-bars ui-btn-icon-notext headerA"></a>
+      <h1>暖夕阳智慧养老</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+      <h1>政策展示</h1>
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#page_zc" class="ui-btn-active" data-transition="slidefade">政 策</a></li>
+          <li><a href="#page_zyz" data-transition="slidefade">志愿者</a></li>
+          <li><a href="#page_lr" data-transition="slidefade">老 人</a></li>
+          <li><a href="#page_hd" data-transition="slidefade">活 动</a></li>
+          <li><a href="#page_jz" data-transition="slidefade">家 政</a></li>
+        </ul>
+      </div>
+      <ul class="list-group">
+        <li class="list-group-item">
+            <a href="zczs-xx.html" target="_blank"><h4>《老年人健康护理手册》首发</h4>4月17日上午，《老年人健康护理手册》首发暨“凤凰夕阳红”微信公众号上线仪式在宁举行。</a>
+        </li>
+        <li class="list-group-item">
+            <a href="zczs-xx2.html" target="_blank"><h4>养老服务市场将全面放开 托起幸福＂夕阳红</h4>满足数量庞大的老年群众多方面需求、妥善解决人口老龄化带来的社会问题，事关发展全局，事关百姓福祉。</a>
+        </li>
+        <li class="list-group-item">
+            <a href="zczs-xx3.html" target="_blank"><h4>智能化服务将是居家养老的未来发展方向</h4>“产业要发展，标准要先行”智能化服务成居家养老发展方向“人口老龄化形势日益严峻。”</a>
+        </li>
+        <li class="list-group-item">
+            <a href="zczs-xx.html" target="_blank"><h4>关注定了！养老金要涨了！9月底前发到位！</h4>4月14日，人社部、财政部正式公布今年提高养老金标准，总体调整水平为5.5%左右。</a>
+        </li>
+        <li class="list-group-item">
+            <a href="zczs-xx.html" target="_blank"><h4>2017:企业参加养老保险职工缴费满15年且正常到龄退休 经办机构直接</h4>人社行政部门不再办理退休审核，系统信息完备，经办机构将直接办理待遇领取手续。</a>
+        </li>
+      </ul>
+    </div>
+   <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+        <ul>
+          <li><a href="#myPanel" data-rel="back" class="ui-btn ui-inline ui-icon-back ui-btn-icon-left">返回</a></li>
+          <li><a href="#page_home" data-transition="slideup" class="ui-btn ui-inline ui-icon-home ui-btn-icon-left ">主页</a></li>
+          <li><a href="#myPanel" class="ui-btn ui-inline ui-icon-grid ui-btn-icon-left">菜单</a></li>
+        </ul>
+        </div>
+      </div>
+  </div>
+  <!-- page zc end -->
+
+  <!-- page hd -->
+  <div data-role="page" id="page_hd">
+    <div data-role="panel" id="myPanel" data-display="overlay">
+      <div class="mine">
+        <img src="images/lrimg/1.jpg" class="HeadImg img-circle">
+        <div id="UserName">STPace</div>
+        <hr>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a href="#">个人信息</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">我的志愿者</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">参加的活动</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">消费的家政服务</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">切换日夜间模式</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">关于我们</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">退出账号</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+    <div data-role="header" data-position="fixed" class="header">
+      <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-icon-bars ui-btn-icon-notext headerA"></a>
+      <h1>暖夕阳智慧养老</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+      <h1>活动中心</h1>
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#page_zc" data-transition="slidefade">政 策</a></li>
+          <li><a href="#page_zyz" data-transition="slidefade">志愿者</a></li>
+          <li><a href="#page_lr" data-transition="slidefade">老 人</a></li>
+          <li><a href="#page_hd" class="ui-btn-active" data-transition="slidefade">活 动</a></li>
+          <li><a href="#page_jz" data-transition="slidefade">家 政</a></li>
+        </ul>
+      </div>
+      <div class="panel panel-success">
+        <div class="panel-heading"><a href="hdkj-xx.html" target="_blank">象棋比赛</a></div>
+        <div class="panel-body">
+            <a href="hdkj-xx.html" target="_blank">暖夕阳第一届人民公园老年象棋比赛。</a>
+        </div>
+        <div class="panel-footer">活动时间2017/5/25——报名截止时间2017/5/22</div>
+      </div>
+      <div class="panel panel-success">
+        <div class="panel-heading"><a href="hdkj-xx.html" target="_blank">象棋比赛</a></div>
+        <div class="panel-body">
+            <a href="hdkj-xx.html" target="_blank">暖夕阳第一届人民公园老年象棋比赛。</a>
+        </div>
+        <div class="panel-footer">活动时间2017/5/25——报名截止时间2017/5/22</div>
+      </div>
+      <div class="panel panel-success">
+        <div class="panel-heading"><a href="hdkj-xx.html" target="_blank">象棋比赛</a></div>
+        <div class="panel-body">
+            <a href="hdkj-xx.html" target="_blank">暖夕阳第一届人民公园老年象棋比赛。</a>
+        </div>
+        <div class="panel-footer">活动时间2017/5/25——报名截止时间2017/5/22</div>
+      </div>
+    </div>
+    <div data-role="footer" data-position="fixed">
+      <div data-role="navbar">
+      <ul>
+        <li><a href="#myPanel" data-rel="back" class="ui-btn ui-inline ui-icon-back ui-btn-icon-left">返回</a></li>
+        <li><a href="#page_home" data-transition="slideup" class="ui-btn ui-inline ui-icon-home ui-btn-icon-left ">主页</a></li>
+        <li><a href="#myPanel" class="ui-btn ui-inline ui-icon-grid ui-btn-icon-left">菜单</a></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- page hd end -->
+
+
+
+  <!-- page jz -->
+  <div data-role="page" id="page_jz">
+    <div data-role="panel" id="myPanel" data-display="overlay">
+      <div class="mine">
+        <img src="images/lrimg/1.jpg" class="HeadImg img-circle">
+        <div id="UserName">STPace</div>
+        <hr>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a href="#">个人信息</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">我的志愿者</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">参加的活动</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">消费的家政服务</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">切换日夜间模式</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">关于我们</a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">退出账号</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+    <div data-role="header" data-position="fixed" class="header">
+      <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-icon-bars ui-btn-icon-notext headerA"></a>
+      <h1>暖夕阳智慧养老</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+      <h1>政策展示</h1>
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#page_zc" data-transition="slidefade">政 策</a></li>
+          <li><a href="#page_zyz" data-transition="slidefade">志愿者</a></li>
+          <li><a href="#page_lr" data-transition="slidefade">老 人</a></li>
+          <li><a href="#page_hd" data-transition="slidefade">活 动</a></li>
+          <li><a href="#page_jz" class="ui-btn-active" data-transition="slidefade">家 政</a></li>
+        </ul>
+      </div>
+      <div class="panel panel-warning">
+          <div class="panel-heading">家政服务</div>
+          <ul class="list-group">
+            <li class="list-group-item"><a href="jzfw.html">卫生清洁</a></li>
+            <li class="list-group-item"><a href="jzfw2.html">洗涤维护</a></li>
+            <li class="list-group-item"><a href="jzfw3.html">健康理疗</a></li>
+            <li class="list-group-item"><a href="jzfw4.html">家电维修</a></li>
+          </ul>
+      </div>
+    </div>
+    <div data-role="footer" data-position="fixed">
+      <div data-role="navbar">
+      <ul>
+        <li><a href="#myPanel" data-rel="back" class="ui-btn ui-inline ui-icon-back ui-btn-icon-left">返回</a></li>
+        <li><a href="#page_home" data-transition="slideup" class="ui-btn ui-inline ui-icon-home ui-btn-icon-left ">主页</a></li>
+        <li><a href="#myPanel" class="ui-btn ui-inline ui-icon-grid ui-btn-icon-left">菜单</a></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+a{
+	text-decoration: none;
+}
+/*老人信息照片自适应*/
+	.lrimg{
+		display: block;
+	    max-width: 100%;
+	    height: auto;
+	    margin:0 auto;
+	}
+	/* 老人信息展示 */
+	.lrBlock{
+		margin-top: 10px;
+		width:306px;
+	}
+	td{
+		margin-top: -5px;
+	}
+	/* .lrBlock_info{
+		color:black;
+		margin-left:1px;
+	} */
+	/*老人详细信息展示*/
+	.lrmc{
+		color:gray;
+		font-weight: bold;
+		margin-top: -15px;
+	}
+	.lrxxxx{
+		color:black;
+		font-size: 13px;
+		text-align: center;
+		font-weight: normal;
+	}
+	.ui-block-a{
+		position:relative;
+	}
+	.zyzimg{
+		display: block;
+	    width:150px;
+	    height:105px;
+	    position: absolute;
+	    left:0px;
+	    top:0px;	    
+	}
+	.zyzimg2{
+		width:315px;
+		height:200px;
+	}
+	.zyzbtn{
+		color:red;
+		font-size:20px;
+	}
+	/* .lunboxx{
+		width:90%;
+		height:200px;
+	} */
